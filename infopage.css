@@ -18,7 +18,7 @@ body {
     display: flex; /* Arrange images in a row */
     width: max-content; /* Adjusts width based on content */
     opacity: 1; 
-    animation: fadeIn 30s linear infinite;
+    animation: move 30s linear infinite;
 }
 
 .film-reel img {
@@ -27,7 +27,7 @@ body {
 }
 
 
-@keyframes fadeIn {
+@keyframes move {
     0% {
         transform: translateX(100%); /* Start off-screen to the right */
     }
